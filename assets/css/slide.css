@@ -1,0 +1,76 @@
+.container{
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 40%;
+    width: 100%;
+    height: 0;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    flex-wrap: row;
+}
+
+.slide-img{
+
+    position: absolute;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Texto qu fica dentro da imagem*/
+.slide-img > img, .slide-img p{
+    position: absolute;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+.slide-img > img{
+    width: 100%;
+    height: 100%;
+}
+
+#id, #i2 #i3{
+    display: none;
+}
+.pre, .nxt{
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    background: rgba(88,88,88,.4);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.pre{
+    left: 0;
+}
+.nxt{
+    right: 0;
+}
+
+.dots{
+    top:-5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 5px;
+    display: inline-block;
+    background: rgba(0,0,0,.4);
+}
+
+.slide-img{
+    z-index: -1;
+    
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three{
+    z-index: 9;
+} 
