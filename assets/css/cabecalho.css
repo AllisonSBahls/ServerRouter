@@ -1,6 +1,7 @@
 *{
     margin: 0px; padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+
 }
 
 .titulo{
@@ -9,26 +10,35 @@
     display: flex;
     padding-bottom: 8px;
 }
-.box{
-    margin: 10px 60px 0px 60px ;
-    color: white;
-    font-size: 25px;
+.box-titulo{
+    margin: 10px 60px 0px 60px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Faster One';
 }
+
+
+.box-menu{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    }
+
 .titulo-mod{
     display: flex;
     margin: 1px 60px 0px 60px ;
     color: white;
     font-size: 12px;
 }
-.menu-topo{
+.menu-titulo{
     list-style: none;
     display: flex;
+    
 
 }
 .titulo>div>ul{
     margin-top: 5px;
 }
-.menu-cabecalho{
+.menu-titulo-informacao{
     padding: 4px;
     margin: 5px;
     font-size: 15px;
@@ -67,14 +77,14 @@
 .menu-link{
     margin-left: 20px;
     padding: 19px;
-    padding-bottom: 16px;
+    padding-bottom: 15px;
     color: white;
     text-decoration: none;
     font-size: 15px;
     border-right:1px white solid;
     border-left:1px white solid;
 
-    border-radius: 100px;
+    border-radius: 10px;
     
     
 }
