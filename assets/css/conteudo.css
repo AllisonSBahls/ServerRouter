@@ -26,11 +26,12 @@
 
 
 .box-servico-principal{  
-    width: 710px;
+    width: 708px;
     height: 650px;
     background-color: rgb(247, 247, 248);
     margin-top: 30px;
-
+    
+    border-right: ridge;
     
 }
 
@@ -55,12 +56,12 @@
     width: 479px;
     height: 370px;
     background-color: rgb(247, 247, 248);
+    margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 10px;
     border-bottom: 2px solid rgb(88, 88, 155);
 
 }
-
 
 .box-servico-secundario>h2{
     border-bottom: ridge;
@@ -68,7 +69,6 @@
     font-family: 'K2D';
 
 }
-
 .box-servico-secundario>p{
     padding-top: 4px;
     margin-left: 15px; 
@@ -80,6 +80,7 @@
     width: 479px;
     height: 280px;
     background-color: rgb(247, 247, 248);
+    margin-left: 10px;
 
 }
 
@@ -98,11 +99,15 @@
 
 .btn-sabia-servico{
     height: 30px;
-    width: 80px;
+    width: 120px;
     float: right;
     margin-right: 35px; 
     margin-top: 0;
-  
+    background-color: rgb(89, 89, 180);
+    color: white;
+    border-radius: 20px;
 }
+  
+
 
 
