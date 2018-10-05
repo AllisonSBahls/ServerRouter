@@ -8,21 +8,23 @@
 
 .titulo-servicos{
     padding-top: 20px; 
-    text-align: center;
+    margin-left: 10%;
     border-top: ridge;
+    color: rgb(34, 34, 133);
+    box-shadow: 20px 1px 10px 1px rgb(34, 34, 133);
+
 }
 .servicos{
     padding-bottom: 30px; 
-    width: 90%;
+    width: 100%;
     height: 10%;
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
     align-items: center;
     margin: 0 auto 0 auto;
-    background-color: gray;
     justify-content: center;
-
+    border-top: 2px solid rgb(144, 144, 214);
    
 }
 
@@ -99,7 +101,7 @@
 }
 
 .btn-sabia-servico{
-    height: 30px;
+    height: 40px;
     width: 120px;
     float: right;
     margin-right: 35px; 
@@ -109,6 +111,54 @@
     border-radius: 20px;
 }
   
+@media(max-width: 1366px){
+.box-servico-principal{  
+        width: 720px;
+        height: 760px;
+    }
+    
+    .box-servico-principal>img{  
+        width: 720px;
+        height: 550px;
+    }
+
+    .box-servico-secundario{  
+        width: 479px;
+        height: 425px;
+    }
+
+    .box-servico-secundario>img{  
+        width: 479px;
+        height: 250px;
+
+        
+        
+    }
 
 
+    .box-servico-terciaria{  
+        width: 479px;
+        height: 325px;
 
+    }
+    .box-servico-secundario>img{  
+        width: 479;
+        height: 169;
+
+        
+        
+    }
+}
+
+@media(max-width: 800px){
+    .box-servico-principal{  
+        width: 479px;
+        height: 425px;  
+            
+            
+        }
+        .box-servico-principal >  img{
+            width: 479px;
+            height: 250px;
+        }     
+    }
