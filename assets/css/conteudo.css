@@ -12,26 +12,27 @@
     border-top: ridge;
 }
 .servicos{
-    padding-bottom: 40px; 
-    position: relative;
-    margin: 0 auto;
+    padding-bottom: 30px; 
     width: 90%;
     height: 10%;
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
-    
+    align-items: center;
+    margin: 0 auto 0 auto;
+    background-color: gray;
+    justify-content: center;
+
    
 }
 
 
 .box-servico-principal{  
-    width: 708px;
-    height: 650px;
+    width: 800px;
+    height: 760px;
     background-color: rgb(247, 247, 248);
     margin-top: 30px;
     
-    border-right: ridge;
     
 }
 
@@ -53,8 +54,8 @@
 
 
 .box-servico-secundario{  
-    width: 479px;
-    height: 370px;
+    width: 600px;
+    height: 425px;
     background-color: rgb(247, 247, 248);
     margin-left: 10px;
     margin-top: 30px;
@@ -77,8 +78,8 @@
 }
 
 .box-servico-terciaria{  
-    width: 479px;
-    height: 280px;
+    width: 600px;
+    height: 325px;
     background-color: rgb(247, 247, 248);
     margin-left: 10px;
 
