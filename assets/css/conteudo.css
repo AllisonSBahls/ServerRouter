@@ -9,7 +9,6 @@
 .titulo-servicos{
     padding-top: 20px; 
     margin-left: 10%;
-    border-top: ridge;
     color: rgb(34, 34, 133);
     box-shadow: 20px 1px 10px 1px rgb(34, 34, 133);
 
@@ -39,7 +38,8 @@
 }
 
 .box-servico-principal>h2{
-    border-bottom: ridge;
+        border-bottom: ridge;
+
     padding-bottom: 4px;
     color: rgb(34, 34, 133);
     font-family: 'K2D';
@@ -62,7 +62,6 @@
     margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 10px;
-    border-bottom: 2px solid rgb(88, 88, 155);
 
 }
 
@@ -119,7 +118,7 @@
     
     .box-servico-principal>img{  
         width: 720px;
-        height: 550px;
+        height: 450px;
     }
 
     .box-servico-secundario{  

@@ -1,0 +1,98 @@
+*{
+    margin: 0; padding: 0;
+    
+}
+
+
+.links{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    margin: 0 auto 0 auto;
+
+}
+
+.links>label{
+    padding: 10px 0;
+    flex-grow: 1;
+    cursor: pointer;
+    transition: all .4s;
+    text-align: center;
+    font-family: Arial;
+    font-size: 100%;
+    color: black;
+    border: 1px black solid;
+
+}
+
+.links > label:hover{
+    background-color: rgb(131, 141, 233);
+}
+
+.scroll input{
+    display: none;
+}
+
+#solucoes:checked ~ .sessao{
+    margin-top: 0vh;
+}
+#funcionalidades:checked ~ .sessao{
+    margin-top: -50vh;
+}
+#vantagens:checked ~ .sessao{
+    margin-top: -100vh;
+}
+
+.bloco{
+    width: 89vw;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    
+
+
+}
+
+.bloco > table{
+    width: 100% ;
+    text-align: center;
+    margin-top: 30px; 
+    border-collapse: collapse;
+}
+.bloco  table th{
+   background-color: rgb(233, 233, 247);
+}
+.bloco  table th, td{
+    padding: 10px;
+    border: 1px solid #222222;
+}
+
+.box-funcionalidade{
+    justify-content: space-between;
+    width: 20vw;
+    height: 80%;
+    background-color: gray;
+    margin: 0 auto 0 auto;
+    margin-top: 30px; 
+
+}
+
+
+#vantagem{
+    background-color: rgb(208, 224, 116); 
+}
+
+.scroll{
+    display: flex;
+    width: 90vw;
+    height: 50vh;
+    overflow: hidden;  
+    margin: 0 auto 0 auto;
+
+
+}
+.sessao{
+    transition: all .4s;
+    
+}
