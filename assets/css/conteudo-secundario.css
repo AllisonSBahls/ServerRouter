@@ -13,10 +13,6 @@ font-family: 'Roboto', 'Times New Roman', Times, serif;
     height: 10%;
     border-top: 1px solid rgb(196, 196, 219);
     background-color: rgb(237, 235, 241);
-
-
-
-    
 }
 
 .titulo-conteudo>h1{
@@ -27,7 +23,7 @@ font-family: 'Roboto', 'Times New Roman', Times, serif;
 
 .conteudo-one, .conteudo-two{
     width: 100%;
-    height: 10%;
+    height: 30%;
     margin-bottom: 30px; 
     display: flex;
     
@@ -36,7 +32,7 @@ font-family: 'Roboto', 'Times New Roman', Times, serif;
 .conteudo-one{
     background-image: linear-gradient(160deg,#86a7e1,#88aae0,#8baede,#8fb1dd,#93b4db,#97b7d9,#9cb9d8,#a1bcd6);
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
     
 }
 .titulo-conteudo-one{
@@ -56,7 +52,7 @@ font-family: 'Roboto', 'Times New Roman', Times, serif;
 .conteudo-two{
     background-image: linear-gradient(160deg,#86a7e1,#88aae0,#8baede,#8fb1dd,#93b4db,#97b7d9,#9cb9d8,#a1bcd6);
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 }
 
 .titulo-conteudo-two{
