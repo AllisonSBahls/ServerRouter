@@ -12,13 +12,12 @@
     background-color: rgb(237, 235, 241);
     padding-top: 5px;
     border-top: 1px solid rgb(213, 213, 224);
-
 }
 
 .slide-img{
 
     position: absolute;
-    width: 80%;
+    width: 90%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -35,6 +34,7 @@
     width: 800px;
     height: 200px;
     font-family: "Rye";
+    text-shadow: 0px 0px 5px blue;
 
 }
 
