@@ -79,17 +79,56 @@
     justify-content: space-between;
     width: 20vw;
     height: 80%;
-    background-color: gray;
     margin: 0 auto 0 auto;
     margin-top: 30px; 
-
+    text-align: center;
+    border: 2px rgb(162, 162, 201) solid;
 }
-
+.box-funcionalidade h2{
+    margin-top:20px;
+    padding-bottom: 30px;
+    color: rgb(13, 95, 13);
+    border-bottom: 1px rgb(162, 162, 201) solid;
+    font-size: 25px;
+}
+.box-funcionalidade p{
+    font-size: 18px;
+    margin-top:20px;
+    color: rgb(17, 25, 97);
+}
 
 #vantagem{
-    background-color: rgb(208, 224, 116); 
+    height: 100%;
+    left: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.titulo-vantagem, .itens-vantagem{
+    width: 40%;
+    height: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(15, 94, 15);
+    margin-top: 20px;
 }
 
+.titulo-vantagem h2{
+    font-size: 30px;
+    color: rgb(17, 25, 97);
+}
+
+.itens-vantagem ul{
+    list-style: none;
+}
+
+.itens-vantagem ul li{
+    font-size: 25px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(22, 22, 124); 
+}
 .scroll{
     display: flex;
     width: 90vw;
