@@ -117,15 +117,17 @@
 .botao{ 
     padding-top: 20px; 
     display: flex;  
-
-
+    
 }
 
 .formulario textarea{
     height: 120px;
     width: 600px;
 }
-.botao-enviar input{
+
+.botao div input{
+    font-size: 15px;
+    padding-left: 30px;
     height: 35px;
-    width: 120px;
+    width: 115px;
 }
