@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    
+}
+.titulo-contato{
+    border-top: 1px solid rgb(196, 196, 219);
+    position: relative;
+    padding-top: 30px; 
+    padding-left: 10%;
+    font-size: 40px;
+
+    color: rgb(6, 6, 73);
+}
+.formulario-contato{
+    width: 90%;
+    height: 100%;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+.formulario{
+    width: 30%;
+    height: 30%;
+    padding-top: 50px;
+    padding-left: 7%;
+    padding-right: 23%;  
+    border-right: 1px rgb(167, 166, 166) solid;
+
+}
+
+.formulario div label, input, textarea{
+    margin-top: 10px;
+
+}
+
+.formulario label{
+    font-size: 18px;
+}
+.formulario input{
+    height: 30px;
+    width: 600px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(167, 166, 166);
+
+}
+.formulario textarea{
+    height: 120px;
+    width: 600px;
+}
+.botao-enviar input{
+    height: 35px;
+    width: 120px;
+}
+.informacao-contato {
+    width: 38%;
+    height: 60%;
+    padding-top: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.informacao-contato ul {
+    list-style: none;
+    font-size: 18px;
+}
+.informacao-contato ul li{
+    color: rgb(45, 45, 94);
+
+}
+.informacao-contato h2{
+    color: rgb(6, 6, 73);
+    margin-bottom: 20px;
+}
+.mapa{
+    margin-top: 15px;
+    margin-left: 10px; 
+}
