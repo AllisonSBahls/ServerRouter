@@ -116,7 +116,8 @@
 
 .botao{ 
     padding-top: 20px; 
-    display: flex;
+    display: flex;  
+
 
 }
 
@@ -127,8 +128,4 @@
 .botao-enviar input{
     height: 35px;
     width: 120px;
-    background-color: rgb(112, 112, 124); 
-    font-size: 20px;
-
-
 }

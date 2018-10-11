@@ -19,10 +19,6 @@
     font-size: 35px;
 }
 
-.subtitulo-servicos{
-    font-size: 30px;
-}
-
 .servicos{
     padding-bottom: 30px; 
     width: 100%;
@@ -125,9 +121,11 @@
     color: rgb(45, 45, 94);
 }
 
-.btn-sabia-servico{
-    height: 40px;
+.servicos div a{
+    text-decoration: none;
+    height: 30px;
     width: 120px;
+    padding-top: 10px; 
     float: right;
     margin-right: 35px; 
     margin-top: 0;
@@ -135,6 +133,7 @@
     color: white;
     border-radius: 20px;
     border:none;
+    text-align: center;
 }
   
 @media(max-width: 1366px){
