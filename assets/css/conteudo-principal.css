@@ -2,8 +2,7 @@
     margin: 0; padding: 0; 
 }
 .conteudo{
-    width: 100%;
-    height: 100%;
+
     background-color: rgb(237, 235, 241);
     font-family: 'Roboto', 'Times New Roman', Times, serif;
 
@@ -21,12 +20,9 @@
 
 .servicos{
     padding-bottom: 30px; 
-    width: 100%;
+    width: 90%;
     height: 10%;
     display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    align-items: center;
     margin: 0 auto 0 auto;
     justify-content: center;
    
@@ -34,15 +30,16 @@
 
 
 .box-servico-principal{  
-    width: 870px;
-    height: 760px;
-    background-color: rgb(247, 247, 248);
+    width: 98%;
+    height: 97%;
+    background-color: white;
     margin-top: 30px;
 
 }
+
 .box-servico-principal>img{  
-    width: 870px;
-    height: 500px;
+    width: 100%;
+    height: 60%;
     padding-bottom: 10px;
 
 }
@@ -66,18 +63,17 @@
 
 
 .box-servico-secundario{  
-    width: 600px;
-    height: 425px;
+    width: 100%;
+    height: 50%;
     background-color: rgb(247, 247, 248);
-    margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 10px;
 
 }
 
 .box-servico-secundario>img{  
-    width: 600px;
-    height: 270px;
+    width: 100%;
+    height: 60%;
 }
 
 .box-servico-secundario>h2{
@@ -96,19 +92,17 @@
 }
 
 .box-servico-terciaria{  
-    width: 600px;
-    height: 325px;
+    width: 100%;
+    height: 45.5%;
     background-color: rgb(247, 247, 248);
-    margin-left: 10px;
 
 }
 
 .box-servico-terciaria>img{  
-    width: 600px;
-    height: 200px;  
+    width: 100%;
+    height: 169px;  
+
 }
-
-
 .box-servico-terciaria>h2{
     border-bottom: ridge;
     color: rgb(6, 6, 73);
@@ -135,49 +129,3 @@
     border:none;
     text-align: center;
 }
-  
-@media(max-width: 1366px){
-.box-servico-principal{  
-        width: 720px;
-        height: 760px;
-    }
-    
-    .box-servico-principal>img{  
-        width: 720px;
-        height: 450px;
-    }
-
-    .box-servico-secundario{  
-        width: 479px;
-        height: 425px;
-    }
-
-    .box-servico-secundario>img{  
-        width: 479px;
-        height: 250px;
-    }
-
-
-    .box-servico-terciaria{  
-        width: 479px;
-        height: 325px;
-
-    }
-    .box-servico-terciaria>img{  
-        width: 479px;
-        height: 169px;  
-    }
-}
-
-@media(max-width: 800px){
-    .box-servico-principal{  
-        width: 479px;
-        height: 425px;  
-            
-            
-        }
-        .box-servico-principal >  img{
-            width: 479px;
-            height: 250px;
-        }     
-    }
