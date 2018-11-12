@@ -24,7 +24,7 @@
     height: 10%;
     display:flex;
     margin: 0 auto 0 auto;
-    justify-content: center;
+    background-color: black;
    
 }
 
@@ -48,10 +48,7 @@
     border-bottom: 1px solid rgb(123, 123, 165);
     color: rgb(6, 6, 73);
     padding-bottom: 4px;
-    font-family: 'K2D';
-    
-
-
+    font-family: 'K2D';    
 }
 .box-servico-principal>p{
     padding-top: 4px;
@@ -59,7 +56,6 @@
     color: rgb(45, 45, 94);
 
 }
-
 
 
 .box-servico-secundario{  
@@ -129,3 +125,27 @@
     border:none;
     text-align: center;
 }
+
+@media(max-width:1000px){
+
+    .servicos{
+    width: 68%;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .box-servico-principal{     
+        width: 100%;
+    
+    }
+    .box-servico-secundario{
+        width: 100%;
+    }
+    .box-servico-terciaria{
+        width: 100%;
+ 
+    }
+
+
+
+}
+
