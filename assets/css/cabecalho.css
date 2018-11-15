@@ -117,7 +117,7 @@
 
     .box-menu ul li{
         width: 100%;
-        border-bottom: 1px solid rgb(184, 184, 212);
+        border-bottom: 1px solid white;
 
 
     }
@@ -127,10 +127,9 @@
     padding-top: 8px;
     padding-bottom: 0;
     padding-left: 10%; 
-    padding-right: 80%; 
+    padding-right: 78%; 
     color: rgb(70, 68, 68);
     text-decoration: none;
-    font-size: 18px;
 
        
     }

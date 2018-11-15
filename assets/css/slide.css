@@ -46,9 +46,8 @@
     font-size: 30px;
     text-align: center;
     color: rgb(255, 255, 255);
-    margin-top: 100px; 
     width: 40%;
-    height: 200px;
+    height: 10%;
     font-family: "Roboto";
     text-shadow: 0px 0px 5px black;
 
@@ -117,6 +116,7 @@
     }
     .slide-img > p{
         font-size: 20px;
+
     
     }
     .slide-img a{
@@ -141,6 +141,7 @@
     }
     .slide-img > p{
         font-size: 20px;
+
     
     }
     .slide-img a{
@@ -156,7 +157,7 @@
     }
 
 }
-@media(max-width:500px){
+@media(max-width:501px){
     
     .slide-img h1{
         font-size: 16px;
@@ -164,6 +165,7 @@
     }
     .slide-img > p{
         font-size: 16px;
+
     
     }
     .slide-img a{

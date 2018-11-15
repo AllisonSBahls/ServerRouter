@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', 'Times New Roman', Times, serif;
-    
+    flex-wrap: wrap;
 }
 .titulo-contato{
     border-top: 1px solid rgb(196, 196, 219);
@@ -15,7 +15,6 @@
 .formulario-contato{
     width: 90%;
     height: 100%;
-
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -24,11 +23,11 @@
 
 }
 .formulario{
-    width: 30%;
+    width: 50%;
     height: 30%;
     padding-top: 50px;
     padding-left: 7%;
-    padding-right: 23%;  
+    padding-right: 1%;  
     border-right: 1px rgb(167, 166, 166) solid;
 
 }
@@ -43,7 +42,7 @@
 }
 .formulario input{
     height: 30px;
-    width: 600px;
+    width: 100%;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid rgb(167, 166, 166);
@@ -51,7 +50,7 @@
 }
 .formulario textarea{
     height: 120px;
-    width: 600px;
+    width: 100%;
 }
 .botao-enviar input{
     height: 35px;
@@ -80,4 +79,26 @@
 .mapa{
     margin-top: 15px;
     margin-left: 10px; 
+}
+
+@media(max-width: 1100px){
+ .formulario-contato{
+        flex-wrap: wrap;
+        }
+    
+.formulario{
+    width: 100%;
+    height: 30%;
+    border-right: none;
+
+
+}
+.informacao-contato {
+    margin: 0 auto 0 auto;
+}
+
+.mapa{
+    margin-top: 0;
+    margin-left: 0; 
+}
 }

@@ -118,3 +118,47 @@ background-image: linear-gradient(100deg,#20d07d,#18c368,#12b654,#0da93e,#0aa135
     font-size: 18px;
 
 }
+@media(max-width: 800px){
+ 
+.conteudo-one, .conteudo-two{
+
+    flex-wrap: wrap;
+
+    display: flex;
+}
+    .titulo-conteudo>h1{
+        font-size: 30px;
+
+    }
+    .titulo-conteudo a{
+        margin-top: 20px; 
+    }
+
+    .titulo-conteudo-one{
+        width: 100%;
+        height: 10%;
+        margin-left: 0;
+
+      
+    }
+    .descricao-conteudo-one{ 
+        width: 100%;
+        margin-left:0;
+  
+    }   
+
+    .titulo-conteudo-two{
+        width: 100%;
+        height: 10%;
+        margin-left: 0;
+
+
+      
+    }
+    .descricao-conteudo-two{ 
+        width: 100%;
+        margin-left:0;
+  
+    }   
+}
+
