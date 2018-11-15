@@ -75,7 +75,7 @@
 
 .box-funcionalidade{
     justify-content: space-between;
-    width: 20vw;
+    width: 40%;
     height: 80%;
     margin: 0 auto 0 auto;
     margin-top: 30px; 
@@ -114,7 +114,7 @@
 }
 
 .titulo-vantagem h2{
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(17, 25, 97);
 }
 
@@ -123,7 +123,7 @@
 }
 
 .itens-vantagem ul li{
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
     border-bottom: 1px solid rgb(22, 22, 124); 
 }
@@ -139,4 +139,64 @@
 .sessao{
     transition: all .4s;
     
+}
+
+@media(max-width: 1000px){
+    .box-funcionalidade p{
+        font-size: 18px;
+        margin-top: 9px;
+        color: rgb(17, 25, 97);
+    }
+
+    .titulo-vantagem h2{
+        font-size: 25px;
+        color: rgb(17, 25, 97);
+    }
+    
+
+    .itens-vantagem ul li{
+        font-size: 20px;
+        padding: 5px;
+        border-bottom: 1px solid rgb(22, 22, 124); 
+    }
+
+    
+}
+@media(max-width: 700px){
+    .box-funcionalidade p{
+        font-size: 15px;
+        margin-top: 9px;
+        color: rgb(17, 25, 97);
+    }
+    
+.titulo-vantagem h2{
+    font-size: 25px;
+    color: rgb(17, 25, 97);
+}
+
+
+.itens-vantagem ul li{
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(22, 22, 124); 
+}
+}
+@media(max-width: 600px){
+    .box-funcionalidade p{
+        font-size: 12px;
+        margin-top: 9px;
+        color: rgb(17, 25, 97);
+    }
+
+    .titulo-vantagem h2{
+        font-size: 20px;
+        color: rgb(17, 25, 97);
+    }
+    
+
+    .itens-vantagem ul li{
+        font-size: 18px;
+        padding: 5px;
+        border-bottom: 1px solid rgb(22, 22, 124); 
+    }
 }

@@ -1,7 +1,6 @@
 *{
-    margin: 0px; padding: 0px;
+    margin: 0; padding: 0;
     font-family: 'Roboto', 'Times New Roman', Times, serif;
-
 }
 
 .titulo{
@@ -24,9 +23,10 @@
 
 
 .box-menu{ 
-    margin-top: 20px;
+    margin-top: 10px;
     color: rgb(255, 255, 255);
-    }
+    
+}
 
 .titulo-mod{
     display: flex;
@@ -34,12 +34,12 @@
     color: white;
     font-size: 10px;
 }
+
 .menu-titulo{
     list-style: none;
     display: flex;
-    
-
 }
+
 .titulo>div>ul{
     margin-top: 5px;
 }
@@ -49,22 +49,8 @@
     font-size: 15px;
     color: white;
     text-shadow: 0px 0px 5px blue;
-
-    
     text-decoration: none;
 
-}
-.caixa-pesquisa input{
-    width: 150px;
-    height: 20px;
-}
-.caixa-pesquisa button{
-    width: 80px;
-    height: 20px;
-    border: none;
-    border-radius: 20px;  
-    color: rgb(12, 11, 43);
-    font-size: 15px;
 }
 
 .menu-titulo-informacao:hover{
@@ -83,14 +69,12 @@
     display: flex;
     margin-bottom: 15px;
 }
-.menu>div>ul>li{
-    z-index:9999;
-}
+
 
 
 .menu-link{
-    margin-left: 50px;
-    padding: 19px;
+    margin-left: 5%;
+    padding: 10px;
     padding-bottom: 15px;
     padding-left: 50px; 
     padding-right: 50px; 
@@ -98,29 +82,71 @@
     text-decoration: none;
     font-size: 18px;
     text-shadow: 0px 0px 5px white;
-
-    
-    
-    
+   
 }
+
 .menu-link:hover{
   background-color: rgb(184, 184, 212);
 }
 
-.menu>div>ul>li>ul{
-    margin-top: 15px;
-    display: none;
-    list-style: none;
-    position: absolute;
-
-
-}
 .menu>div>ul>li:hover ul{
     display: block;
 
 }
 
-.box-submenu{
-    display: flex;
+
+@media(max-width:1000px){
+
+    .box-menu{
+        width: 100%;
+    }
+    .menu{
+        justify-content: left;
+        display:flex;
+        text-align: left;   
+        
+    }
+    .menu>div>ul{
+        width: 100%;
+
+        display: block;
+        list-style: none;
+        margin-bottom: 15px;
+
+    }
+
+    .box-menu ul li{
+        width: 100%;
+        border-bottom: 1px solid rgb(184, 184, 212);
+
+
+    }
+  
+    .menu-link{
+    margin-left:0;
+    padding-top: 8px;
+    padding-bottom: 0;
+    padding-left: 10%; 
+    padding-right: 80%; 
+    color: rgb(70, 68, 68);
+    text-decoration: none;
+    font-size: 18px;
+
+       
+    }
+    .menu>div>ul>li{
+        margin-bottom: 5px;
+    }
+    .menu-link:hover{
+      background-color: rgb(184, 184, 212);
+    }
     
-}
+    .menu>div>ul>li:hover ul{
+        display: block;
+    
+    }
+
+        
+       
+        
+}   
